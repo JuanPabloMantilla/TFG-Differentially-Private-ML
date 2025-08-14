@@ -5,17 +5,17 @@
 
 ## Project Overview
 
-[cite_start]This repository contains the official implementation for the final degree thesis, "Differentially Private Machine Learning: Implementation and Analysis of Gradient and Dataset Perturbation Techniques"[cite: 6]. [cite_start]The project investigates, implements, and empirically evaluates two core techniques for integrating the formal privacy guarantees of Differential Privacy (DP) into machine learning pipelines[cite: 26].
+This repository contains the official implementation for the final degree thesis, "Differentially Private Machine Learning: Implementation and Analysis of Gradient and Dataset Perturbation Techniques"[cite: 6]. [cite_start]The project investigates, implements, and empirically evaluates two core techniques for integrating the formal privacy guarantees of Differential Privacy (DP) into machine learning pipelines.
 
-[cite_start]The primary goal is to analyze the fundamental trade-off between model utility and the strength of privacy guarantees when training on sensitive, real-world medical data from the **MIMIC-IV database**[cite: 29, 649].
+The primary goal is to analyze the fundamental trade-off between model utility and the strength of privacy guarantees when training on sensitive, real-world medical data from the **MIMIC-IV database**.
 
 ## Key Features & Methodology
 
 * **Two Core DP Techniques Implemented:**
-    1.  [cite_start]**Dataset Perturbation:** Calibrated Gaussian noise is added directly to the training data before model fitting[cite: 40].
-    2.  [cite_start]**Gradient Perturbation:** Noise is injected into gradients during training via Differentially Private Stochastic Gradient Descent (DP-SGD)[cite: 41, 583].
-* [cite_start]**Real-World Sensitive Data:** The experiments use a multi-class classification task on a dataset derived from the MIMIC-IV critical care database[cite: 29].
-* [cite_start]**Rigorous Evaluation:** Models are evaluated against a non-private baseline, using appropriate metrics for class imbalance like **Macro F1-Score** and **Macro OVO AUC** to measure the privacy-utility trade-off[cite: 30, 43].
+    1.  **Dataset Perturbation:** Calibrated Gaussian noise is added directly to the training data before model fitting.
+    2.  **Gradient Perturbation:** Noise is injected into gradients during training via Differentially Private Stochastic Gradient Descent (DP-SGD).
+* **Real-World Sensitive Data:** The experiments use a multi-class classification task on a dataset derived from the MIMIC-IV critical care database.
+* **Rigorous Evaluation:** Models are evaluated against a non-private baseline, using appropriate metrics for class imbalance like **Macro F1-Score** and **Macro OVO AUC** to measure the privacy-utility trade-off.
 
 ## Key Results
 
