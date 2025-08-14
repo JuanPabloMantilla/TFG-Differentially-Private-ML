@@ -19,7 +19,7 @@
 
 ## Key Results
 
-The project confirms the inverse correlation between privacy and utility. [cite_start]The DP-SGD model with **ε = 7.27** was identified as the optimal choice for this medical context, providing a meaningful privacy guarantee (ε < 10) while maintaining the highest utility among the strongly private models.
+The project confirms the inverse correlation between privacy and utility. The DP-SGD model with **ε = 7.27** was identified as the optimal choice for this medical context, providing a meaningful privacy guarantee (ε < 10) while maintaining the highest utility among the strongly private models.
 
 ## Repository Structure
 
