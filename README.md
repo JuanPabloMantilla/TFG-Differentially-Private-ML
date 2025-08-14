@@ -5,7 +5,7 @@
 
 ## Project Overview
 
-This repository contains the official implementation for the final degree thesis, "Differentially Private Machine Learning: Implementation and Analysis of Gradient and Dataset Perturbation Techniques"[cite: 6]. [cite_start]The project investigates, implements, and empirically evaluates two core techniques for integrating the formal privacy guarantees of Differential Privacy (DP) into machine learning pipelines.
+This repository contains the official implementation for the final degree thesis, "Differentially Private Machine Learning: Implementation and Analysis of Gradient and Dataset Perturbation Techniques". The project investigates, implements, and empirically evaluates two core techniques for integrating the formal privacy guarantees of Differential Privacy (DP) into machine learning pipelines.
 
 The primary goal is to analyze the fundamental trade-off between model utility and the strength of privacy guarantees when training on sensitive, real-world medical data from the **MIMIC-IV database**.
 
